@@ -1,4 +1,4 @@
-package coldwarm.spring;
+package coldwarm.spring.helloworld;
 
 public class HelloWorld {
     private String message;
