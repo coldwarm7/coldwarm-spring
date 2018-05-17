@@ -9,4 +9,18 @@ import java.util.List;
  */
 public interface IProductService {
     List<Product> getProducts();
+
+    Product getProductById(long id);
+
+    Product getProductByName(String name);
+
+    void addProduct(Product product);
+
+    void updateProduct(Product product);
+
+    void deleteProductById(long id);
+
+    void deleteAllProducts();
+
+    public boolean isProductExist(Product product);
 }

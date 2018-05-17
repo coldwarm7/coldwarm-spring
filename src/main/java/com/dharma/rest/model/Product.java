@@ -52,23 +52,32 @@ public class Product {
         this.count = count;
     }
 
-    @Override
-    public int hashCode() {
-        return super.hashCode();
-    }
 
     @Override
     public boolean equals(Object obj) {
-        Product me = (Product) obj;
-//        if (id != me.id){
-//            return false;
-//        }
-        return id ==me.id;
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Product other = (Product) obj;
+        if (id != other.id){
+            return false;
+        }
+        return true;
     }
 
     @Override
     public String toString() {
         return "Product <id = " + id + ",name = " + name +
                 ", price = "+ price + ",count = " + count ;
+    }
+    @Override
+    public int hashCode(){
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + (int) (id ^ ( id >>> 32));
+        return result;
     }
 }

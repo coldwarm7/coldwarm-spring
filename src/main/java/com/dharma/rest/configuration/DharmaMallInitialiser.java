@@ -1,9 +1,9 @@
 package com.dharma.rest.configuration;
 
 
+
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import javax.servlet.Filter;
 
 /**
  * Created by Coldwarm on 18/5/16.
@@ -25,8 +25,9 @@ public class DharmaMallInitialiser extends AbstractAnnotationConfigDispatcherSer
         return new String[] {"/"};
     }
 
-    @Override
-    protected Filter[] getServletFilters() {
-        return super.getServletFilters();
-    }
+//    @Override
+//    protected Filter[] getServletFilters() {
+//        Filter [] singleton = { new CORSFilter()};
+//        return singleton;
+//    }
 }
