@@ -8,11 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0655fa21-0817-4947-a953-4d305472ec28" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/recourse/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/recourse/database.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/coldwarm-spring/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/coldwarm-spring/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/coldwarm-spring/WEB-INF/classes/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/coldwarm-spring/WEB-INF/classes/database.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -195,7 +190,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="709" />
@@ -489,12 +484,12 @@
       <workItem from="1526484800467" duration="4363000" />
       <workItem from="1526546221615" duration="832000" />
       <workItem from="1526561509670" duration="6992000" />
-      <workItem from="1526738601367" duration="3912000" />
+      <workItem from="1526738601367" duration="4883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41687000" />
+    <option name="totallyTimeSpent" value="42658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -518,7 +513,7 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33510637" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33510637" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
