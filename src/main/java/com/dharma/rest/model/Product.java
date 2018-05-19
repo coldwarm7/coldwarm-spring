@@ -1,23 +1,33 @@
 package com.dharma.rest.model;
 
+import javax.persistence.*;
+
 /**
  * Created by Coldwarm on 18/5/16.
  */
+@Entity
+@Table(name = "product")
 public class Product {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+
+    @Column(name = "name")
     private String name;
+
+    @Column(name = "price")
     private Double price;
-    private Integer count;
+    //private Integer count;
 
     public Product(){
         id = 0;
     }
 
-    public Product(long id, String name, Double price, Integer count) {
+    public Product(long id, String name, Double price) { //, Integer count
         this.id = id;
         this.name = name;
         this.price = price;
-        this.count = count;
+        //this.count = count;
     }
 
     public long getId() {
@@ -44,13 +54,13 @@ public class Product {
         this.price = price;
     }
 
-    public Integer getCount() {
-        return count;
-    }
-
-    public void setCount(Integer count) {
-        this.count = count;
-    }
+//    public Integer getCount() {
+//        return count;
+//    }
+//
+//    public void setCount(Integer count) {
+//        this.count = count;
+//    }
 
 
     @Override
@@ -70,8 +80,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product <id = " + id + ",name = " + name +
-                ", price = "+ price + ",count = " + count ;
+        return "Product <id = " + id + ",name = " + name + ", price = "+ price;         //+ ",count = " + count ;
     }
     @Override
     public int hashCode(){
