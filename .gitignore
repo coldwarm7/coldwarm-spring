@@ -1,6 +1,6 @@
-.idea/
-.settings/
-out/
-target/
+.idea
+.settings
+out
+target
 .DS_Store
 *.iml
