@@ -4,6 +4,32 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="Helloworld" class="coldwarm.spring.helloworld.HelloWorld">
-        <property name="message" value="Hello World!!!"/>
+        <property name="message" value="cishu"/>
+
+        <property name="args">
+            <list>
+                <value>辞树</value>
+                <value>寄木</value>
+            </list>
+        </property>
+
+        <property name="map">
+            <map>
+                <entry key="1" value="相思"/>
+                <entry key="2" value="锦年"/>
+            </map>
+        </property>
+
+        <property name="properties">
+            <props>
+                <prop key="dbUser">root</prop>
+                <prop key="dbPassward">123456</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="demo" class="coldwarm.spring.helloworld.Demo">
+        <!--<constructor-arg name="name" value="feizhen" />-->
+        <property name="helloWorld" ref="Helloworld" />  <!--helloWorld 是Demo中要注入依赖的参数 ，ref是要注入依赖的bean的id -->
     </bean>
 </beans>
